@@ -50,6 +50,7 @@ function reset(){
     document.getElementById("sec").innerHTML=sec;
 document.getElementById("min").innerHTML=min;
 document.getElementById("hours").innerHTML=hours;
+    return stop();
 }
 
 
